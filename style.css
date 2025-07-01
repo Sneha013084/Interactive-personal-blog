@@ -1,0 +1,73 @@
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 2em auto;
+  background: #be6363;
+}
+h1{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color:ghostwhite;
+     text-align: center;
+}
+h2{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+label {
+  display: block;
+  margin-bottom: 0.3em;
+  font-weight: bold;
+  color: rgb(112, 9, 35);
+  margin-top: 10px;;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: 1px solid #0c3210;
+  border-radius: 4px;
+  margin-bottom: 10px;
+
+}
+.post {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #384d63;
+  color: #fff;
+  margin-right: 0.5em;
+  cursor: pointer;
+  margin-top: 30px;
+
+}
+
+ .error-message {
+  color: rgb(30, 14, 170);
+  font-size: 0.9em;
+  margin-left: 0.5em;
+}
+
+.text-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.edit-btn,
+.delete-btn {
+  margin-right: 0.5em;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5em;
+  margin-top: 1em;
+}
